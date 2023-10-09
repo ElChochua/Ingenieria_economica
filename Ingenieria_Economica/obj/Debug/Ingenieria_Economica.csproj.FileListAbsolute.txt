@@ -1,0 +1,25 @@
+D:\Practicas_Programacion_Distribuida\Practicas_Sockets\C++ Cliente-Servidor\Servidor\Ingenieria_Economica\Ingenieria_Economica\bin\Debug\Ingenieria_Economica.exe.config
+D:\Practicas_Programacion_Distribuida\Practicas_Sockets\C++ Cliente-Servidor\Servidor\Ingenieria_Economica\Ingenieria_Economica\bin\Debug\Ingenieria_Economica.exe
+D:\Practicas_Programacion_Distribuida\Practicas_Sockets\C++ Cliente-Servidor\Servidor\Ingenieria_Economica\Ingenieria_Economica\bin\Debug\Ingenieria_Economica.pdb
+D:\Practicas_Programacion_Distribuida\Practicas_Sockets\C++ Cliente-Servidor\Servidor\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.csproj.AssemblyReference.cache
+D:\Practicas_Programacion_Distribuida\Practicas_Sockets\C++ Cliente-Servidor\Servidor\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.csproj.SuggestedBindingRedirects.cache
+D:\Practicas_Programacion_Distribuida\Practicas_Sockets\C++ Cliente-Servidor\Servidor\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.Form1.resources
+D:\Practicas_Programacion_Distribuida\Practicas_Sockets\C++ Cliente-Servidor\Servidor\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.Properties.Resources.resources
+D:\Practicas_Programacion_Distribuida\Practicas_Sockets\C++ Cliente-Servidor\Servidor\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.csproj.GenerateResource.cache
+D:\Practicas_Programacion_Distribuida\Practicas_Sockets\C++ Cliente-Servidor\Servidor\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.csproj.CoreCompileInputs.cache
+D:\Practicas_Programacion_Distribuida\Practicas_Sockets\C++ Cliente-Servidor\Servidor\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.exe
+D:\Practicas_Programacion_Distribuida\Practicas_Sockets\C++ Cliente-Servidor\Servidor\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.pdb
+D:\Practicas_Programacion_Distribuida\Practicas_Sockets\C++ Cliente-Servidor\Servidor\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.MainScreen.resources
+D:\Ingenieria_Economica\Ingenieria_Economica\bin\Debug\Ingenieria_Economica.exe.config
+D:\Ingenieria_Economica\Ingenieria_Economica\bin\Debug\Ingenieria_Economica.exe
+D:\Ingenieria_Economica\Ingenieria_Economica\bin\Debug\Ingenieria_Economica.pdb
+D:\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.csproj.AssemblyReference.cache
+D:\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.csproj.SuggestedBindingRedirects.cache
+D:\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.Form1.resources
+D:\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.MainScreen.resources
+D:\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.Properties.Resources.resources
+D:\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.csproj.GenerateResource.cache
+D:\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.csproj.CoreCompileInputs.cache
+D:\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.exe
+D:\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.pdb
+D:\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.VpnDiseño.resources
