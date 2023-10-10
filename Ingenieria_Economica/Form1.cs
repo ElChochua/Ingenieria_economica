@@ -92,7 +92,7 @@ namespace Ingenieria_Economica
             R_Label1.Text = R_Text.Text;
             R_Label2.Text = R_Text.Text + ")";
             N_Label.Location = new Point((714 + (R_Text.TextLength * 11)), 232);
-            Linea_Inferior_Panel.Size = new Size(220 + (R_Text.TextLength * 9), 2);
+            Linea_Inferior_Panel.Size = new Size(120 + (R_Text.TextLength * 9), 2);
 
         }
 

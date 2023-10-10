@@ -12,8 +12,9 @@ namespace Ingenieria_Economica
 {
     public partial class VpnDiseño : Form
     {
-        private int textBoxCount = 0;
-        private int counter = 0;
+        private int numero_Periodos = 0;
+        private List<TextBox> listaTextBoxes = new List<TextBox>();
+        private List<Label> listaLabels = new List<Label>();
         public VpnDiseño()
         {
             InitializeComponent();
@@ -35,43 +36,62 @@ namespace Ingenieria_Economica
         }
 
         private void button3_Click(object sender, EventArgs e)
-        {/*
+        {
             try
             {
-                // Crear un nuevo TextBox
-                TextBox newTextBox = new TextBox();
-                Label newLabel = new Label();
-                // Configurar propiedades del nuevo TextBox
-                newLabel.Name = "Label_Fe" + textBoxCount.ToString();
-                newTextBox.Name = "textBox" + textBoxCount.ToString();
-                newTextBox.Location = new System.Drawing.Point(40, 30 + textBoxCount * 30); // Posición en el Panel
-                newLabel.Location = new System.Drawing.Point(10,30 + textBoxCount * 30);
-                newTextBox.Size = new System.Drawing.Size(120, 20);
-                newLabel.Size = new System.Drawing.Size(50, 20);
-                newLabel.Text = "Fe"+textBoxCount.ToString();
-                if(textBoxCount >= 9)
+                Numero_Periodos_Text.Enabled = false;
+                numero_Periodos = int.Parse(Numero_Periodos_Text.Text);
+                
+                for(int i = 1; i <= numero_Periodos; i++)
                 {
-                    newLabel.Name = "Label_Fe" + textBoxCount.ToString();
-                    newTextBox.Name = "textBox" + textBoxCount.ToString();
-                    newTextBox.Location = new System.Drawing.Point(180, counter * 30); // Posición en el Panel
-                    newLabel.Location = new System.Drawing.Point(130, 10 counter * 30);
-                    newTextBox.Size = new System.Drawing.Size(140, 20);
-                    newLabel.Size = new System.Drawing.Size(50, 20);
-                    newLabel.Text = "Fe" + textBoxCount.ToString();
+                    TextBox _textBox = new TextBox();
+                    Label _label = new Label();
+                    _textBox.Name = "Periodo" + i.ToString() + "_Text";
+                    _label.Name = "Label_Fe" + i.ToString();
+                    _textBox.Size = new Size(120, 20);
+                    _label.Size = new Size(50, 20);
+                    _label.Text = "Fe" + i.ToString();
+                    listaTextBoxes.Add(_textBox);
+                    listaLabels.Add(_label);
+                    Contenedor_Periodos.Controls.Add(_label);
+                    Contenedor_Periodos.Controls.Add(_textBox);
                 }
-
-                // Agregar el TextBox al Panel
-                Periodos_Panel.Controls.Add(newTextBox);
-                Periodos_Panel.Controls.Add(newLabel);
-
-                // Incrementar el contador
-                textBoxCount++;
-                counter++;
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
+                if (numero_Periodos == 0 || Numero_Periodos_Text.Text == null) Numero_Periodos_Text.Enabled = true;
                 MessageBox.Show("Error: " + ex.ToString());
-            }*/
+            }
+         
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Numero_Periodos_Text.Enabled = true;
+            Numero_Periodos_Text.Text = null;
+
+              foreach(TextBox i in listaTextBoxes)
+              {
+                  Contenedor_Periodos.Controls.Remove(i);
+                  i.Dispose();
+              }
+              foreach (Label j in listaLabels)
+              {
+                  Contenedor_Periodos.Controls.Remove(j);
+                  j.Dispose();
+              }
+            listaTextBoxes.Clear();
+            listaLabels.Clear();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Numero de elementos en TxtBox" + listaTextBoxes.Count + "\n Labels " + listaLabels.Count);
 
         }
     }
