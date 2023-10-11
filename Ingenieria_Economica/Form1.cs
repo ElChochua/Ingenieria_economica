@@ -104,13 +104,16 @@ namespace Ingenieria_Economica
         private void Vpn_Calcular_Click(object sender, EventArgs e)
         {
             double VPN = 0, R = 0, N = 0, VAE = 0 ;
+            String Cadena_Formateada = "N2";
+
             try
             {
                 VPN = Double.Parse(Vpn_Text.Text);
                 R = Double.Parse(R_Text.Text);
                 N = Double.Parse(N_Label.Text);
                 VAE = (VPN*R/(1-(1/Math.Pow((1+R),N))));
-                Res_Label.Text = VAE.ToString();
+                Cadena_Formateada = string.Format("{0:" + Cadena_Formateada + "}", VAE);
+                Resultado_Label.Text = "Resultado: " + Cadena_Formateada;
             }catch (Exception ex) {
                 MessageBox.Show("Dato Invalido Error: " + ex.ToString());
             }
@@ -121,6 +124,7 @@ namespace Ingenieria_Economica
             R_Text.Text = null;
             Vpn_Text.Text = null;
             N_Text.Text = null;
+            Resultado_Label.Text = "Resultado:"; 
         }
         private void N_Text_TextChanged(object sender, EventArgs e)
         {

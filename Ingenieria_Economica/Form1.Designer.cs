@@ -47,7 +47,7 @@
             this.N_Label = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.N_Text = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.Resultado_Label = new System.Windows.Forms.Label();
             this.Res_Label = new System.Windows.Forms.Label();
             this.Linea_Superior_Panel = new System.Windows.Forms.Panel();
             this.Linea_Inferior_Panel = new System.Windows.Forms.Panel();
@@ -292,14 +292,14 @@
             this.N_Text.TabIndex = 19;
             this.N_Text.TextChanged += new System.EventHandler(this.N_Text_TextChanged);
             // 
-            // label3
+            // Resultado_Label
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(539, 321);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(115, 25);
-            this.label3.TabIndex = 20;
-            this.label3.Text = "Resultado:";
+            this.Resultado_Label.AutoSize = true;
+            this.Resultado_Label.Location = new System.Drawing.Point(539, 321);
+            this.Resultado_Label.Name = "Resultado_Label";
+            this.Resultado_Label.Size = new System.Drawing.Size(115, 25);
+            this.Resultado_Label.TabIndex = 20;
+            this.Resultado_Label.Text = "Resultado:";
             // 
             // Res_Label
             // 
@@ -358,7 +358,7 @@
             this.Controls.Add(this.Linea_Inferior_Panel);
             this.Controls.Add(this.Linea_Superior_Panel);
             this.Controls.Add(this.Res_Label);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.Resultado_Label);
             this.Controls.Add(this.N_Text);
             this.Controls.Add(this.R_Text);
             this.Controls.Add(this.Vpn_Text);
@@ -412,7 +412,7 @@
         private System.Windows.Forms.Label N_TextLabel;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox N_Text;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Resultado_Label;
         private System.Windows.Forms.Label Res_Label;
         private System.Windows.Forms.Panel Linea_Superior_Panel;
         private System.Windows.Forms.Panel Linea_Inferior_Panel;
