@@ -107,7 +107,7 @@ namespace Ingenieria_Economica
             Interes_Text.Text = null;
             Inversion_Inicial_Text.Text = null;
             Resultado_Label.Text = "Resultado:";
-
+            
               foreach(TextBox i in listaTextBoxes)
               {
                   Contenedor_Periodos.Controls.Remove(i);
@@ -126,6 +126,12 @@ namespace Ingenieria_Economica
         {
             MessageBox.Show("Numero de elementos en TxtBox" + listaTextBoxes.Count + "\n Labels " + listaLabels.Count);
 
+        }
+
+        private void Contenedor_Periodos_Paint(object sender, PaintEventArgs e)
+        {
+            Contenedor_Periodos.AutoScroll = true;
+            Contenedor_Periodos.AutoScrollMinSize = new Size(0, 225);
         }
     }
 }

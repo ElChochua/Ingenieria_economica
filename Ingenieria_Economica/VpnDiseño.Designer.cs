@@ -169,6 +169,7 @@
             this.Contenedor_Periodos.Name = "Contenedor_Periodos";
             this.Contenedor_Periodos.Size = new System.Drawing.Size(387, 400);
             this.Contenedor_Periodos.TabIndex = 9;
+            this.Contenedor_Periodos.Paint += new System.Windows.Forms.PaintEventHandler(this.Contenedor_Periodos_Paint);
             // 
             // button5
             // 
@@ -218,6 +219,7 @@
             this.gradientPanel1.BottomColor = System.Drawing.Color.Violet;
             this.gradientPanel1.Controls.Add(this.label1);
             this.gradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+
             this.gradientPanel1.Location = new System.Drawing.Point(156, 0);
             this.gradientPanel1.Name = "gradientPanel1";
             this.gradientPanel1.Size = new System.Drawing.Size(644, 56);

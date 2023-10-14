@@ -33,7 +33,7 @@ namespace Ingenieria_Economica
         {
             inf_Label.Text = "El método del VAE consiste en calcular el rendimiento anual uniforme que genera la\n" +
                 "inversión en un proyecto durante un período determinado. Para calcular el VAE\nutilizamos la siguiente formula: ";
-            formula_Pic.ImageLocation = @"D:\Ingenieria_Economica\Ingenieria_Economica\Imagenes\VAE_Formula.jpg";
+            formula_Pic.ImageLocation = @"C:\Ingenieria_Economica\Ingenieria_Economica\Imagenes\VAE_Formula.jpg";
             donde_Label.Text = "Donde:\r\n\r\nVPN: es el valor presente neto\r\nr: la tasa de descuento\r\nn: el número de períodos";
             Opcion = 2;
             
@@ -65,7 +65,7 @@ namespace Ingenieria_Economica
                 "al presente. Es un método de modelado financiero utilizado por los contadores para la \r\n" +
                 "elaboración de presupuestos de capital y por analistas e inversores para evaluar la rentabilidad \r\n" +
                 "de las inversiones y proyectos propuestos.";
-            formula_Pic.ImageLocation = @"D:\Ingenieria_Economica\Ingenieria_Economica\Imagenes\VPN_Formula.png";
+            formula_Pic.ImageLocation = @"C:\Ingenieria_Economica\Ingenieria_Economica\Imagenes\VPN_Formula.png";
             donde_Label.Text = "Donde:\r\nVPN: es el valor presente neto\r\nt: es el periodo\r\nn: Es el tiempo de evaluacion\r\nFt: Periodo de recuperacion\r\ni: es la tasa de interes";
             Opcion = 1;
 
@@ -97,6 +97,11 @@ namespace Ingenieria_Economica
 
                     break;
             }
+        }
+
+        private void formula_Pic_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

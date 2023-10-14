@@ -124,6 +124,10 @@ namespace Ingenieria_Economica
             R_Text.Text = null;
             Vpn_Text.Text = null;
             N_Text.Text = null;
+            Vpn_Label.Text = "VPN";
+            R_Label1.Text = "r";
+            R_Label2.Text = "r )";
+
             Resultado_Label.Text = "Resultado:"; 
         }
         private void N_Text_TextChanged(object sender, EventArgs e)

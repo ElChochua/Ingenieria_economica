@@ -154,6 +154,7 @@
             this.formula_Pic.TabIndex = 2;
             this.formula_Pic.TabStop = false;
             this.formula_Pic.WaitOnLoad = true;
+            this.formula_Pic.Click += new System.EventHandler(this.formula_Pic_Click);
             // 
             // donde_Label
             // 
