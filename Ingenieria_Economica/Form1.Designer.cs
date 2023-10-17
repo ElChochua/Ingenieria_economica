@@ -53,6 +53,7 @@
             this.Linea_Inferior_Panel = new System.Windows.Forms.Panel();
             this.gradientPanel1 = new Ingenieria_Economica.GradientPanel();
             this.label1 = new System.Windows.Forms.Label();
+            this.TraerVpn_Btn = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.gradientPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -62,6 +63,7 @@
             this.flowLayoutPanel1.Controls.Add(this.Vpn_Calcular);
             this.flowLayoutPanel1.Controls.Add(this.Vpn_Limpiar);
             this.flowLayoutPanel1.Controls.Add(this.Vpn_Regresar);
+            this.flowLayoutPanel1.Controls.Add(this.TraerVpn_Btn);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(6);
@@ -77,7 +79,7 @@
             this.Vpn_Calcular.Location = new System.Drawing.Point(6, 6);
             this.Vpn_Calcular.Margin = new System.Windows.Forms.Padding(6);
             this.Vpn_Calcular.Name = "Vpn_Calcular";
-            this.Vpn_Calcular.Size = new System.Drawing.Size(333, 96);
+            this.Vpn_Calcular.Size = new System.Drawing.Size(292, 68);
             this.Vpn_Calcular.TabIndex = 1;
             this.Vpn_Calcular.Text = "Calcular";
             this.Vpn_Calcular.UseVisualStyleBackColor = true;
@@ -88,10 +90,10 @@
             this.Vpn_Limpiar.FlatAppearance.BorderSize = 0;
             this.Vpn_Limpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Vpn_Limpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Vpn_Limpiar.Location = new System.Drawing.Point(6, 114);
+            this.Vpn_Limpiar.Location = new System.Drawing.Point(6, 86);
             this.Vpn_Limpiar.Margin = new System.Windows.Forms.Padding(6);
             this.Vpn_Limpiar.Name = "Vpn_Limpiar";
-            this.Vpn_Limpiar.Size = new System.Drawing.Size(333, 110);
+            this.Vpn_Limpiar.Size = new System.Drawing.Size(292, 82);
             this.Vpn_Limpiar.TabIndex = 2;
             this.Vpn_Limpiar.Text = "Limpiar";
             this.Vpn_Limpiar.UseVisualStyleBackColor = true;
@@ -102,10 +104,10 @@
             this.Vpn_Regresar.FlatAppearance.BorderSize = 0;
             this.Vpn_Regresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Vpn_Regresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Vpn_Regresar.Location = new System.Drawing.Point(6, 236);
+            this.Vpn_Regresar.Location = new System.Drawing.Point(6, 180);
             this.Vpn_Regresar.Margin = new System.Windows.Forms.Padding(6);
             this.Vpn_Regresar.Name = "Vpn_Regresar";
-            this.Vpn_Regresar.Size = new System.Drawing.Size(333, 110);
+            this.Vpn_Regresar.Size = new System.Drawing.Size(292, 82);
             this.Vpn_Regresar.TabIndex = 2;
             this.Vpn_Regresar.Text = "Regresar";
             this.Vpn_Regresar.UseVisualStyleBackColor = true;
@@ -350,6 +352,19 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "VALOR ANUAL EQUIVALENTE(V.A.E)";
             // 
+            // TraerVpn_Btn
+            // 
+            this.TraerVpn_Btn.FlatAppearance.BorderSize = 0;
+            this.TraerVpn_Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TraerVpn_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TraerVpn_Btn.Location = new System.Drawing.Point(3, 271);
+            this.TraerVpn_Btn.Name = "TraerVpn_Btn";
+            this.TraerVpn_Btn.Size = new System.Drawing.Size(295, 81);
+            this.TraerVpn_Btn.TabIndex = 23;
+            this.TraerVpn_Btn.Text = "Obtener VPN";
+            this.TraerVpn_Btn.UseVisualStyleBackColor = true;
+            this.TraerVpn_Btn.Click += new System.EventHandler(this.TraerVpn_Btn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -416,6 +431,7 @@
         private System.Windows.Forms.Label Res_Label;
         private System.Windows.Forms.Panel Linea_Superior_Panel;
         private System.Windows.Forms.Panel Linea_Inferior_Panel;
+        private System.Windows.Forms.Button TraerVpn_Btn;
     }
 }
 

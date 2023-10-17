@@ -36,3 +36,4 @@ C:\Ingenieria_economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.cspr
 C:\Ingenieria_economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.exe
 C:\Ingenieria_economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.pdb
 C:\Ingenieria_economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.PeriodoDeRecuperacionInversion.resources
+D:\Ingenieria_Economica\Ingenieria_Economica\obj\Debug\Ingenieria_Economica.PeriodoDeRecuperacionInversion.resources

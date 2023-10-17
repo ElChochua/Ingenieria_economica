@@ -16,6 +16,7 @@ namespace Ingenieria_Economica
         {
             InitializeComponent();
         }
+        public double VPN { get; set; }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -133,6 +134,10 @@ namespace Ingenieria_Economica
         private void N_Text_TextChanged(object sender, EventArgs e)
         {
             N_Label.Text = N_Text.Text;
+        }
+        private void TraerVpn_Btn_Click(object sender, EventArgs e)
+        {
+            Vpn_Text.Text = this.VPN.ToString();
         }
     }
 }

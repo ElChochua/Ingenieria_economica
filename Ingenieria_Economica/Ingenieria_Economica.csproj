@@ -97,6 +97,7 @@
     <EmbeddedResource Include="VpnDiseño.resx">
       <DependentUpon>VpnDiseño.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\DataSources\GradientPanel.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

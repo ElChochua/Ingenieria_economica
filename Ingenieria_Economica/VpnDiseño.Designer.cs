@@ -33,6 +33,7 @@
             this.Limpiar_Btn = new System.Windows.Forms.Button();
             this.Fijar_Periodos_Btn = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.BotonCalcularVAE = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Inversion_Inicial_Text = new System.Windows.Forms.TextBox();
@@ -56,6 +57,7 @@
             this.flowLayoutPanel1.Controls.Add(this.Limpiar_Btn);
             this.flowLayoutPanel1.Controls.Add(this.Fijar_Periodos_Btn);
             this.flowLayoutPanel1.Controls.Add(this.button4);
+            this.flowLayoutPanel1.Controls.Add(this.BotonCalcularVAE);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -68,7 +70,7 @@
             this.Calcular_Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Calcular_Btn.Location = new System.Drawing.Point(3, 3);
             this.Calcular_Btn.Name = "Calcular_Btn";
-            this.Calcular_Btn.Size = new System.Drawing.Size(153, 104);
+            this.Calcular_Btn.Size = new System.Drawing.Size(153, 84);
             this.Calcular_Btn.TabIndex = 0;
             this.Calcular_Btn.Text = "Calcular";
             this.Calcular_Btn.UseVisualStyleBackColor = true;
@@ -78,9 +80,9 @@
             // 
             this.Limpiar_Btn.FlatAppearance.BorderSize = 0;
             this.Limpiar_Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Limpiar_Btn.Location = new System.Drawing.Point(3, 113);
+            this.Limpiar_Btn.Location = new System.Drawing.Point(3, 93);
             this.Limpiar_Btn.Name = "Limpiar_Btn";
-            this.Limpiar_Btn.Size = new System.Drawing.Size(153, 104);
+            this.Limpiar_Btn.Size = new System.Drawing.Size(153, 84);
             this.Limpiar_Btn.TabIndex = 1;
             this.Limpiar_Btn.Text = "Limpiar";
             this.Limpiar_Btn.UseVisualStyleBackColor = true;
@@ -90,9 +92,9 @@
             // 
             this.Fijar_Periodos_Btn.FlatAppearance.BorderSize = 0;
             this.Fijar_Periodos_Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Fijar_Periodos_Btn.Location = new System.Drawing.Point(3, 223);
+            this.Fijar_Periodos_Btn.Location = new System.Drawing.Point(3, 183);
             this.Fijar_Periodos_Btn.Name = "Fijar_Periodos_Btn";
-            this.Fijar_Periodos_Btn.Size = new System.Drawing.Size(153, 104);
+            this.Fijar_Periodos_Btn.Size = new System.Drawing.Size(153, 84);
             this.Fijar_Periodos_Btn.TabIndex = 2;
             this.Fijar_Periodos_Btn.Text = "Fijar Periodos";
             this.Fijar_Periodos_Btn.UseVisualStyleBackColor = true;
@@ -102,13 +104,25 @@
             // 
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(3, 333);
+            this.button4.Location = new System.Drawing.Point(3, 273);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(153, 104);
+            this.button4.Size = new System.Drawing.Size(153, 84);
             this.button4.TabIndex = 3;
             this.button4.Text = "Regresar";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // BotonCalcularVAE
+            // 
+            this.BotonCalcularVAE.FlatAppearance.BorderSize = 0;
+            this.BotonCalcularVAE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BotonCalcularVAE.Location = new System.Drawing.Point(3, 363);
+            this.BotonCalcularVAE.Name = "BotonCalcularVAE";
+            this.BotonCalcularVAE.Size = new System.Drawing.Size(153, 91);
+            this.BotonCalcularVAE.TabIndex = 14;
+            this.BotonCalcularVAE.Text = "Calcular VAE";
+            this.BotonCalcularVAE.UseVisualStyleBackColor = true;
+            this.BotonCalcularVAE.Click += new System.EventHandler(this.BotonCalcularVAE_Click);
             // 
             // label2
             // 
@@ -219,7 +233,6 @@
             this.gradientPanel1.BottomColor = System.Drawing.Color.Violet;
             this.gradientPanel1.Controls.Add(this.label1);
             this.gradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-
             this.gradientPanel1.Location = new System.Drawing.Point(156, 0);
             this.gradientPanel1.Name = "gradientPanel1";
             this.gradientPanel1.Size = new System.Drawing.Size(644, 56);
@@ -286,5 +299,6 @@
         private System.Windows.Forms.Label Resultado_Label;
         private System.Windows.Forms.RadioButton Decimales_Boton;
         private System.Windows.Forms.RadioButton Millares_Boton;
+        private System.Windows.Forms.Button BotonCalcularVAE;
     }
 }
