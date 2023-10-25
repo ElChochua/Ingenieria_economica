@@ -162,9 +162,8 @@
             this.donde_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.donde_Label.Location = new System.Drawing.Point(210, 282);
             this.donde_Label.Name = "donde_Label";
-            this.donde_Label.Size = new System.Drawing.Size(51, 20);
+            this.donde_Label.Size = new System.Drawing.Size(0, 20);
             this.donde_Label.TabIndex = 3;
-            this.donde_Label.Text = "label1";
             // 
             // gradientPanel1
             // 

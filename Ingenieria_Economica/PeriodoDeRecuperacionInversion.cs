@@ -83,22 +83,8 @@ namespace Ingenieria_Economica
             Inversion_Inicial_Text.Text = null;
             Resultado_Label.Text = "Resultado:";
             */
-            foreach (TextBox i in ListaTextBox)
-            {
-                Contenedor_Periodos_Layout.Controls.Remove(i);
-                i.Dispose();
-                Contenedor_Periodos_Layout.Controls.Remove(i);
-            }
-            foreach (Label j in ListaLabels)
-            {
-                Contenedor_Periodos_Layout.Controls.Remove(j);
-                j.Dispose();
-            }
-            foreach(DataGridViewColumn h in ListaColumnas)
-            {
-                Tabla_Datos.Columns.Remove(h);
-                h.Dispose();
-            }
+            Tabla_Datos.Columns.Clear();
+            Contenedor_Periodos_Layout.Controls.Clear();
             Inversion_Inicial_Text.Text = null;
             Tabla_Datos.Columns.Clear();
             Tabla_Datos.Rows.Clear();

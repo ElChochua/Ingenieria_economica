@@ -116,17 +116,8 @@ namespace Ingenieria_Economica
             Interes_Text.Text = null;
             Inversion_Inicial_Text.Text = null;
             Resultado_Label.Text = "Resultado:";
-            
-              foreach(TextBox i in listaTextBoxes)
-              {
-                  Contenedor_Periodos.Controls.Remove(i);
-                  i.Dispose();
-              }
-              foreach (Label j in listaLabels)
-              {
-                  Contenedor_Periodos.Controls.Remove(j);
-                  j.Dispose();
-              }
+
+            Contenedor_Periodos.Controls.Clear();
             listaTextBoxes.Clear();
             listaLabels.Clear();
         }

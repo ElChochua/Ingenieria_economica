@@ -34,6 +34,7 @@ namespace Ingenieria_Economica
             inf_Label.Text = "El método del VAE consiste en calcular el rendimiento anual uniforme que genera la\n" +
                 "inversión en un proyecto durante un período determinado. Para calcular el VAE\nutilizamos la siguiente formula: ";
             formula_Pic.ImageLocation = @"D:\Ingenieria_Economica\Ingenieria_Economica\Imagenes\VAE_Formula.jpg";
+            formula_Pic.SizeMode = PictureBoxSizeMode.StretchImage;
             donde_Label.Text = "Donde:\r\n\r\nVPN: es el valor presente neto\r\nr: la tasa de descuento\r\nn: el número de períodos";
             Opcion = 2;
             
@@ -57,7 +58,15 @@ namespace Ingenieria_Economica
 
         private void tir_Btn_Click(object sender, EventArgs e)
         {
-            inf_Label.Text = "Aca vamos a poner informacion del TIR padrino";
+            inf_Label.Text = "La Tasa Interna de Retorno o TIR es la tasa de interés o de rentabilidad que ofrece una\n" +
+                "inversión. Así, se puede decir que la Tasa Interna de Retorno es el porcentaje de beneficio o pérdida\n" +
+                "que conlleva cualquier inversión.\nLa TIR es un factor invaluable para el éxito de una empresa o\n" +
+                "negocio. Para tal efecto, puede ser de ayuda financiar la empresa.";
+            formula_Pic.ImageLocation = @"D:\Ingenieria_Economica\Ingenieria_Economica\Imagenes\TIR_Formula.jpg";
+            formula_Pic.SizeMode = PictureBoxSizeMode.AutoSize;
+            donde_Label.Text = "F representa los flujos de caja en cada periodo.\r\n" +
+                "I0 es el valor del desembolso inicial de la inversión.\r\n" +
+                "n es el número de periodos considerado.";
             Opcion = 4;
 
         }
@@ -105,8 +114,10 @@ namespace Ingenieria_Economica
 
                     break;
                  case 4:
-                    MessageBox.Show("Opcion 4");
-
+                    this.Hide();
+                    Tasa_Intern_Retorno tasa = new Tasa_Intern_Retorno();
+                    tasa.ShowDialog();
+                    this.Show();
                     break;
             }
         }
